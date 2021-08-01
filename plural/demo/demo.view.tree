@@ -1,0 +1,27 @@
+$aspirity_lib_plural_demo $mol_list
+	second_label $aspirity_lib_plural
+		- categories below required for en and ru
+		other @ \seconds
+		one @ \second
+		- categories below required for ru
+		few @ \
+		many @ \
+	minute_label $aspirity_lib_plural
+		other @ \minutes
+		one @ \minute
+		few @ \
+		many @ \
+	hour_label $aspirity_lib_plural
+		other @ \hours
+		one @ \hour
+		few @ \
+		many @ \
+	rows /
+		<= Switch_lang $mol_button_major 
+			click?val <=> switch_lang?val null
+			title <= switch_lang_title @ \Switch language
+		<= Time $mol_list
+			rows /
+				<= Hour $mol_view sub / <= hour \
+				<= Minute $mol_view sub / <= minute \
+				<= Second $mol_view sub / <= second \

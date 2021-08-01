@@ -1,6 +1,6 @@
 namespace $ {
 
-	export class $aspirity_plural extends $mol_object2 {
+	export class $aspirity_lib_plural extends $mol_object2 {
 
 		other() {
 			throw new Error(`${ this }.other() is not defined`)

@@ -1,0 +1,15 @@
+{
+	"$aspirity_lib_plural_demo_hour_label_few": "Часа",
+	"$aspirity_lib_plural_demo_hour_label_many": "Часов",
+	"$aspirity_lib_plural_demo_hour_label_one": "Час",
+	"$aspirity_lib_plural_demo_hour_label_other": "Часа",
+	"$aspirity_lib_plural_demo_minute_label_few": "Минуты",
+	"$aspirity_lib_plural_demo_minute_label_many": "Минут",
+	"$aspirity_lib_plural_demo_minute_label_one": "Минута",
+	"$aspirity_lib_plural_demo_minute_label_other": "Минут",
+	"$aspirity_lib_plural_demo_second_label_few": "Секунды",
+	"$aspirity_lib_plural_demo_second_label_many": "Секунд",
+	"$aspirity_lib_plural_demo_second_label_one": "Секунда",
+	"$aspirity_lib_plural_demo_second_label_other": "Секунд",
+	"$aspirity_lib_plural_demo_switch_lang_title": "Изменить язык"
+}
