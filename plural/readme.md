@@ -1,5 +1,7 @@
 # $aspirity_lib_plural
 
+**Unstable**
+
 Wrapper for **Intl.PluralRules**
 
 ## API
